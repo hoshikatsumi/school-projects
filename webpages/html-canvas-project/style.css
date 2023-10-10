@@ -1,0 +1,69 @@
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(assets/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-ExtraLight;
+  src: url(assets/Montserrat-ExtraLight.ttf);
+}
+
+body, div, h1, p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  display: block;
+  background: transparent;
+}
+
+#container {
+  position:fixed;
+  overflow:hidden;
+  height:100%;
+	width:100%;
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+  background-color: #0c1f32;
+}
+
+#container h1 {
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-family: Montserrat-Regular;
+}
+
+#container h1 span {
+  color: #348dcb;
+}
+
+#artboard-container {
+  margin: 0;
+  position: absolute;
+  background-image: url('assets/Curve.png');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+
+#artboard-section {
+  border: 5px solid #348dcb;
+}
+
+#container p {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-family: Montserrat-ExtraLight;
+}
