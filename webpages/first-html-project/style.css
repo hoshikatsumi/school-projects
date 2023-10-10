@@ -1,7 +1,9 @@
 @font-face {
-	font-family:Montserrat-Regular;src:url('Montserrat-Regular.ttf');
+	font-family :Montserrat-Regular;
+	src :url('Montserrat-Regular.ttf');
 }
 
 @font-face {
-	font-family:Montserrat-ExtraLight;src:url('Montserrat-ExtraLight.ttf');
+	font-family :Montserrat-ExtraLight;
+	src :url('Montserrat-ExtraLight.ttf');
 }
