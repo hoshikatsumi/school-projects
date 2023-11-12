@@ -38,6 +38,9 @@ body {
 	background-position: center;
 	border-collapse: collapse;
 	margin: 25px;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 .exercise-caution {
