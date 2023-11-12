@@ -28,37 +28,3 @@ function handleVisibilityChange() {
 
 // Listen for visibility change events
 document.addEventListener('visibilitychange', handleVisibilityChange);
-
-// Function to apply blur when the page is not currently viewed
-function applyBlurOnVisibilityChange() {
-  // Check for browser support
-  if (document.hidden !== undefined) {
-    // Listen for visibility change events
-    document.addEventListener('visibilitychange', handleVisibilityChange);
-  } else if (document.mozHidden !== undefined) {
-    document.addEventListener('mozvisibilitychange', handleVisibilityChange);
-  } else if (document.msHidden !== undefined) {
-    document.addEventListener('msvisibilitychange', handleVisibilityChange);
-  } else if (document.webkitHidden !== undefined) {
-    document.addEventListener('webkitvisibilitychange', handleVisibilityChange);
-  }
-}
-
-// Function to handle visibility change
-function handleVisibilityChange() {
-  if (document.hidden || document.mozHidden || document.msHidden || document.webkitHidden) {
-    // Blur page if the page is not visible
-    blurContent();
-  } else {
-    // Page is visible, reload the page
-    window.location.reload(true);
-  }
-}
-
-// Function to apply blur effect
-function blurContent() {
-  document.body.style.filter = 'blur(10px)';
-}
-
-// Call the function to start monitoring visibility changes
-applyBlurOnVisibilityChange();
