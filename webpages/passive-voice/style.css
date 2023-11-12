@@ -1,0 +1,124 @@
+@media print {
+	html, body, div {
+		display: none;
+	}
+}
+
+@font-face {
+	font-family: Roboto-Light;
+	src: url('assets/fonts/Roboto-Light.ttf');
+}
+
+@font-face {
+	font-family: Roboto-Regular;
+	src: url('assets/fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+	font-family: Roboto-Medium;
+	src: url('assets/fonts/Roboto-Medium.ttf');
+}
+
+html {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	background: transparent;
+	display: block;
+	cursor: auto;
+}
+
+body {
+	background-image: url('assets/images/background.png');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border-collapse: collapse;
+	margin: 25px;
+}
+
+.exercise-caution {
+	display: grid;
+	place-items: center;
+	height: 90vh;
+}
+
+.exercise-caution-wrapper {
+	width: 50vw;
+	height: fit-content;
+	border-radius: 25px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: rgb(80, 80, 80);
+	background-color: white;
+}
+
+.exercise-caution-wrapper-margin {
+	margin: 30px;
+}
+
+.exercise-caution-wrapper-margin-title {
+	text-align: center;
+	font-family: Roboto-Medium;
+	letter-spacing: 2px;
+}
+
+.exercise-caution-wrapper-margin-content {
+	font-family: Roboto-Regular;
+	letter-spacing: 0.5px;
+	text-align: justify;
+}
+
+.exercise-caution-wrapper-margin-button {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.exercise-caution-wrapper-margin-button-clickable {
+	background:#e60012;
+	box-shadow: 0 4px 6px rgba(0,0,0,.2);
+	border-radius:20px;
+	transition:0.3s;
+	border:none;
+	color:white;
+	font-family:Roboto-Regular;
+	font-size:17px;
+	text-align:center;
+	padding:10px 45px;
+	cursor: pointer;
+	transition-duration: 0.5s;
+	transition-delay: 0s;
+	transition-property: all;
+}
+
+.exercise-caution-wrapper-margin-button-clickable:hover {
+	background:#020202;
+}
+
+.exercise-main {
+	display: none;
+	align-items: center;
+	justify-content: center;
+	justify-items: center;
+}
+
+.exercise-main-iframe {
+	display: grid;
+	place-items: center;
+	width: 501px;
+	height: 1036px;
+	border-radius: 25px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: rgb(80, 80, 80);
+	background-color: white;
+}
+
+.exercise-main-iframe-box {
+	width: 501px;
+	height: 1011px;
+}
