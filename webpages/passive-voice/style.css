@@ -114,7 +114,7 @@ body {
 	display: grid;
 	place-items: center;
 	width: 376px;
-	height: 1136px;
+	height: 1146px;
 	border-radius: 25px;
 	border-width: 2px;
 	border-style: solid;
@@ -124,7 +124,7 @@ body {
 
 .exercise-main-iframe-box {
 	width: 376px;
-	height: 1111px;
+	height: 1121px;
 }
 
 .exercise-main-iframe-box iframe {
