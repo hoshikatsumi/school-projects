@@ -50,7 +50,8 @@ body {
 }
 
 .exercise-caution-wrapper {
-	width: 50vw;
+	max-width: 75vw;
+	min-width: fit-content;
 	height: fit-content;
 	border-radius: 25px;
 	border-width: 2px;
