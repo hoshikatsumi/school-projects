@@ -76,23 +76,52 @@ body {
 	text-align: justify;
 }
 
+.exercise-caution-wrapper-margin-script {
+	display: flex;
+	justify-content: left;
+}
+
+.exercise-caution-wrapper-margin-script-load {
+	margin-top: 10px;
+	margin-left: 10px;
+	height: 30px;
+	width: 30px;
+}
+
+.exercise-caution-wrapper-margin-script-load img {
+	height: 100%;
+	width: 100%;
+}
+
+.exercise-caution-wrapper-margin-script-text {
+	margin-left: 10px;
+	font-family: Roboto-Regular;
+	letter-spacing: 0.5px;
+	text-align: left;
+	vertical-align: center;
+}
+
+.exercise-caution-wrapper-margin-hr-bottom {
+	display: none;
+}
+
 .exercise-caution-wrapper-margin-button {
-	display:flex;
-	justify-content:center;
-	align-items:center;
+	display: none;
+	justify-content: center;
+	align-items: center;
 }
 
 .exercise-caution-wrapper-margin-button-clickable {
 	background:#e60012;
 	box-shadow: 0 4px 6px rgba(0,0,0,.2);
-	border-radius:20px;
-	transition:0.3s;
-	border:none;
-	color:white;
-	font-family:Roboto-Regular;
-	font-size:17px;
-	text-align:center;
-	padding:10px 45px;
+	border-radius: 20px;
+	transition: 0.3s;
+	border: none;
+	color: white;
+	font-family: Roboto-Regular;
+	font-size: 17px;
+	text-align: center;
+	padding: 10px 25px;
 	cursor: pointer;
 	transition-duration: 0.5s;
 	transition-delay: 0s;
@@ -128,6 +157,6 @@ body {
 }
 
 .exercise-main-iframe-box iframe {
-	width: 100%;
-	height: 100%;
+	width: 375px;
+	height: 1120px;
 }
