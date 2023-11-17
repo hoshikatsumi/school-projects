@@ -28,6 +28,7 @@ html {
 	background: transparent;
 	display: block;
 	cursor: auto;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -404,51 +405,3 @@ body {
 	}
 
 }
-
-/* 
-.exercise-main {
-	display: none;
-	align-items: center;
-	justify-content: center;
-	justify-items: center;
-}
-
-.exercise-main-textbox {
-	display: none;
-	width: 90vw;
-	height: fit-content;
-	border-radius: 25px;
-	border-width: 2px;
-	border-style: solid;
-	border-color: rgb(80, 80, 80);
-	background-color: white;
-}
-
-.exercise-main-textbox p {
-	font-family: Roboto-Regular;
-	letter-spacing: 0.5px;
-	text-align: center;
-}
-
-.exercise-main-iframe {
-	display: grid;
-	place-items: center;
-	width: 376px;
-	height: 1146px;
-	border-radius: 25px;
-	border-width: 2px;
-	border-style: solid;
-	border-color: rgb(80, 80, 80);
-	background-color: white;
-}
-
-.exercise-main-iframe-box {
-	width: 376px;
-	height: 1121px;
-}
-
-.exercise-main-iframe-box iframe {
-	width: 375px;
-	height: 1120px;
-}
-*/
