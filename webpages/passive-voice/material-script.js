@@ -13,7 +13,7 @@ const dateVar = 27;
 const monthVar = 10;
 const yearVar = 2023;
 
-const expMin = 59;
+const expMin = 29;
 const expHour = 14;
 const expDate = 27;
 const expMonth = 10;
