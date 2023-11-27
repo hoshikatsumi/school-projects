@@ -12,8 +12,8 @@ const expYear = 2023;
 
 function timeChecking(currentDate) {
   var currentDate = new Date();
-  const setDate = new Date(yearVar, monthVar, dateVar, hourVar, minuteVar);
-  const expireDate = new Date(expYear, expMonth, expDate, expHour, expMin);
+  var setDate = new Date(yearVar, monthVar, dateVar, hourVar, minuteVar);
+  var expireDate = new Date(expYear, expMonth, expDate, expHour, expMin);
   var exerciseBefore = document.getElementsByClassName("container-content-exercise-not-begin");
   var exerciseToDo = document.getElementsByClassName("container-content-exercise");
   var exerciseFinished = document.getElementsByClassName("container-content-exercise-has-finished");
