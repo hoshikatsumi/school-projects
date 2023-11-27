@@ -30,7 +30,7 @@ function timeChecking(currentDate) {
     exerciseToDo[0].style.display = "none";
     exerciseFinished[0].style.display = "block";
   }
-  setTimeout(() => timeChecking(c), 1000);
+  setTimeout(() => timeChecking(), 1000);
 }
 
 document.addEventListener('DOMContentLoaded', function () {
