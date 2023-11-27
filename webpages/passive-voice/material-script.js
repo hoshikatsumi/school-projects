@@ -10,10 +10,10 @@ const expDate = 27;
 const expMonth = 10;
 const expYear = 2023;
 
-function timeChecking(currentDate) {
-  const currentDate = new Date();
-  const setDate = new Date(yearVar, monthVar, dateVar, hourVar, minuteVar);
-  const expireDate = new Date(expYear, expMonth, expDate, expHour, expMin);
+function timeChecking() {
+  var currentDate = new Date();
+  var setDate = new Date(yearVar, monthVar, dateVar, hourVar, minuteVar);
+  var expireDate = new Date(expYear, expMonth, expDate, expHour, expMin);
   var exerciseBefore = document.getElementsByClassName("container-content-exercise-not-begin");
   var exerciseToDo = document.getElementsByClassName("container-content-exercise");
   var exerciseFinished = document.getElementsByClassName("container-content-exercise-has-finished");
@@ -30,7 +30,7 @@ function timeChecking(currentDate) {
     exerciseToDo[0].style.display = "none";
     exerciseFinished[0].style.display = "block";
   }
-  setTimeout(timeChecking, 1000);
+  setTimeout(() => timeChecking(), 1000);
 }
 
 document.addEventListener('DOMContentLoaded', function () {
