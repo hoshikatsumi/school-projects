@@ -1,0 +1,227 @@
+@font-face {
+	font-family: Roboto-Light;
+	src: url('assets/fonts/Roboto-Light.ttf');
+}
+
+@font-face {
+	font-family: Roboto-Regular;
+	src: url('assets/fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+	font-family: Roboto-Medium;
+	src: url('assets/fonts/Roboto-Medium.ttf');
+}
+
+@font-face {
+	font-family: Montserrat-Black;
+	src: url('assets/fonts/Montserrat-Black.ttf');
+}
+
+@font-face {
+	font-family: Montserrat-Bold;
+	src: url('assets/fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+	font-family: Montserrat-ExtraBold;
+	src: url('assets/fonts/Montserrat-ExtraBold.ttf');
+}
+
+@font-face {
+	font-family: Montserrat-ExtraLight;
+	src: url('assets/fonts/Montserrat-ExtraLight.ttf');
+}
+
+@font-face {
+	font-family: Montserrat-Light;
+	src: url('assets/fonts/Montserrat-Light.ttf');
+}
+
+@font-face {
+	font-family: Montserrat-Medium;
+	src: url('assets/fonts/Montserrat-Medium.ttf');
+}
+
+@font-face {
+	font-family: Montserrat-Regular;
+	src: url('assets/fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+	font-family: Montserrat-SemiBold;
+	src: url('assets/fonts/Montserrat-SemiBold.ttf');
+}
+
+@font-face {
+	font-family: Montserrat-Thin;
+	src: url('assets/fonts/Montserrat-Thin.ttf');
+}
+
+html {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	background: transparent;
+	display: block;
+	cursor: auto;
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	display: block;
+}
+
+h2 {
+	font-family: Roboto-Regular;
+	letter-spacing: 1px;
+	margin: 0;
+	text-align: left;
+	@media only screen and (max-width: 399px) {
+		font-size: 17px;
+	}
+	@media only screen and (max-width: 499px) {
+		font-size: 19px;
+	}
+	@media only screen and (min-width: 500px) and (max-width: 599px) {
+		font-size: 22px;
+	}
+	@media only screen and (min-width: 600px) and (max-width: 699px) {
+		font-size: 28px;
+	}
+	@media only screen and (min-width: 700px) and (max-width: 799px) {
+		font-size: 35px;
+	}
+	@media only screen and (min-width: 800px) {
+		font-size: 40px;
+	}
+}
+
+h3 {
+	font-family: Roboto-Regular;
+	letter-spacing: 1px;
+	margin: 0;
+	text-align: left;
+	@media only screen and (max-width: 399px) {
+		font-size: 15px;
+	}
+	@media only screen and (max-width: 499px) {
+		font-size: 16px;
+	}
+	@media only screen and (min-width: 500px) and (max-width: 599px) {
+		font-size: 17px;
+	}
+	@media only screen and (min-width: 600px) and (max-width: 699px) {
+		font-size: 18px;
+	}
+	@media only screen and (min-width: 700px) and (max-width: 799px) {
+		font-size: 19px;
+	}
+	@media only screen and (min-width: 800px) {
+		font-size: 20px;
+	}
+}
+
+hr {
+	border-top: 1px solid #222222;
+	border-left: none;
+	border-bottom: none;
+	border-right: none;
+}
+
+p, ul, li, tr, td {
+	font-family: Roboto-Light;
+	text-align: justify;
+	letter-spacing: 1px;
+	@media only screen and (max-width: 499px) {
+		font-size: 14px;
+	}
+	@media only screen and (min-width: 500px) and (max-width: 799px) {
+		font-size: 16px;
+	}
+	@media only screen and (min-width: 800px) {
+		font-size: 18px;
+	}
+}
+
+table, th, td {
+  background-color: #ffffff;
+  border: 1px solid #222222;
+  width: fit-content;
+  border-collapse: collapse;
+  text-indent: initial;
+  border-spacing: 2px;
+  padding: 5px;
+  border-collapse: collapse;
+}
+
+.container-content-exercise-not-begin {
+  display: none;
+}
+
+.container-content-exercise {
+  display: none;
+}
+
+.container-content-exercise-has-finished {
+  display: none;
+}
+
+@media only screen and (max-width: 599px) {
+
+  .container {
+    display: block;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    margin-bottom: 75px;
+  }
+  
+  .container-content {
+    padding: 10px 0px;
+  }
+  
+  .container-content-hr {
+    padding: 30px 0px;
+    width: 100px;
+  }
+
+  .container-content-formula-table {
+    padding: 30px 0px;
+  }
+
+}
+
+@media only screen and (min-width: 600px) {
+
+  .container {
+    display: block;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+  
+  .container-content {
+    padding: 10px 0px;
+  }
+  
+  .container-content-hr {
+    padding: 40px 0px;
+    width: 100px;
+  }
+
+  .container-content-formula-table {
+    padding: 30px 0px;
+  }
+
+}
