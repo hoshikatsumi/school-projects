@@ -34,5 +34,5 @@ function timeChecking() {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-  timeChecking(currentDate);
+  timeChecking();
 });
