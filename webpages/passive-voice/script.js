@@ -29,8 +29,8 @@ function getHiddenProp() {
   var prefixes = ['webkit', 'moz', 'ms', 'o'];
   if ('hidden' in document) return 'hidden';
   for (var c = 0; c < prefixes.length; c++) {
-    if ((prefixes[i] + 'Hidden') in document) {
-      return prefixes[i] + 'Hidden';
+    if ((prefixes[c] + 'Hidden') in document) {
+      return prefixes[c] + 'Hidden';
     }
   }
   return null;
